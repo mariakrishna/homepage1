@@ -1,0 +1,100 @@
+/* Desktop */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+/* Body */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+.header {
+    height: 50vh;
+    color: #ffffff;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(
+        to bottom right,
+        #ff4f4f,
+        #ff7d1b
+    );
+}
+
+h1 {
+    width: 15ch;
+}
+
+/* Profile */
+
+.profile {
+    text-align: center;
+    position: relative;
+    top: -75px;
+
+}
+
+    .profile__avatar {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid #ffffff;
+        box-shadow: 0 4px 4px  #000000;
+    }
+
+.profile__copy {
+    font-style: italic;
+    margin: 32px auto;
+    width: 70ch;
+}
+
+/* Social */
+
+.profile__social, .footer__social {
+display: grid;
+grid-auto-flow: column;
+list-style: none;
+gap: 16px;
+width: fit-content;
+margin: 0 auto;
+color: #0005ff;
+font-size: 22px;
+
+/* Footer */
+
+}
+.footer {
+   background: #000000; 
+   position: fixed;
+   height: 100px;
+   width: 100vw;
+   color:#ffffff;
+   display: grid;
+   grid-template-columns: auto auto;
+   align-items: center;
+   box-sizing: border-box;
+   padding: 25px;
+   bottom: 0;
+}
+
+.footer__social {
+    margin: 0;
+    justify-self: end;
+    color:#ffffff
+}
+
+/* Separator */
+
+.separator {
+
+position: absolute;
+width: 720px;
+height: 0px;
+left: 280px;
+top: 798px;
+
+border: 1px solid #C4C4C4;
+}
+
